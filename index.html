@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="name">Введіть своє ім'я: </label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="email">Введіть свою електронну пошту: </label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="phone">Введіть свій номер телефону: </label>
+            <input type="tel" id="phone">
+        </div>
+        <label>Введіть повідомлення: </label>
+        <div><textarea id="message"></textarea></div>
+        <select>
+            <option value="1">Запит на зворотний зв'язок</option>
+            <option value="2">Запит на  консультацію</option>
+            <option value="3">Інше</option>
+        </select>
+        <div>
+            <input type="submit" value="Відправити">
+            <input type="reset" value="Скасувати">
+        </div>
+    </form>
+
+    <form action="" method="post">
+        <h2>Реєстрація на тренінг</h2>
+        <div>
+            <label for="name">Введіть своє ім'я: </label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="surname">Введіть своє прізвище: </label>
+            <input type="text" id="surname">
+        </div>
+        <div>
+            <label for="email">Введіть свою електронну пошту: </label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="phone">Введіть свій номер телефону: </label>
+            <input type="tel" id="phone">
+        </div>
+        <div>
+            <label for="date">Введіть свою дату народження: </label>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="male">Введіть свою стать: </label>
+            <select id="male">
+                <option value="1">Чоловік</option>
+                <option value="2">Жінка</option>
+                <option value="3">Інше</option>
+            </select>
+        </div>
+        <div>
+            <label for="number">Введіть кількість квитків: </label>
+            <input type="number" id="number">
+        </div>
+        <div>
+            <label for="ticket">Виберіть тип квитка: </label>
+            <select id="ticket">
+                <option value="1">Загальний</option>
+                <option value="2">VIP</option>
+                <option value="3">Студентський</option>
+            </select>
+        </div>
+        <fieldset>
+            <legend>Обов'язки</legend>
+            <input type="checkbox" id="rules">
+            <label for="rules">Я погоджуюсь з правилами тренінгу</label>
+            <br>
+            <input type="checkbox" id="conditions">
+            <label for="conditions">Я погоджуюсь з умовами участі</label>
+        </fieldset>
+        <div>
+            <input type="submit" value="Відправити">
+            <input type="reset" value="Скасувати">
+        </div>
+    </form>
+</body>
+</html>
